@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de CSS Inline, Interno e Externo</title>
+
+    <!-- ================= CSS INTERNO ================= -->
+    <!-- O CSS interno fica dentro da tag <style> no <head> -->
+    <style>
+        p {
+            color: green;
+            font-size: 16px;
+        }
+    </style>
+
+    <!-- ================= CSS EXTERNO ================= -->
+    <!-- Conexão com o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Exemplo de Aplicação de CSS</h1>
+
+    <!-- ================= CSS INLINE ================= -->
+    <!-- O CSS inline é aplicado diretamente na tag HTML -->
+    <p style="color: red; font-weight: bold;">
+        Este parágrafo usa CSS inline.
+        <em>Este texto está em itálico.</em> <br>   <!-- <br> é uma quebra de linha, que move o texto para a linha seguinte. -->
+        <strong>Este texto está em negrito.</strong>
+        <small>Este texto está em tamanho pequeno.</small>
+    </p>
+
+    <!-- ================= CSS INTERNO ================= -->
+    <p>
+        Este parágrafo usa CSS interno (definido no &lt;style&gt;).
+    </p>
+
+    <!-- ================= CSS EXTERNO ================= -->
+    <p class="externo">
+        Este parágrafo usa CSS externo (arquivo styles.css).
+    </p>
+
+
+    <!-- ================= EXEMPLO DE CASCATA ================= -->
+    <p class="destaque">
+    Este texto usa classe (fica verde).
+    </p>
+
+    <p class="destaque" style="color: rgb(68, 0, 128);">
+    Este texto usa inline (fica roxo).
+    </p>
+
+
+</body>
+</html>
+
+<!--
+O que foi aprendido com este código:
+
+1. Formas de aplicação do CSS:
+   O aluno compreendeu as três maneiras de aplicar estilos em uma página:
+   - CSS Inline (diretamente na tag HTML, usando o atributo style);
+   - CSS Interno (dentro da tag <style> no <head>);
+   - CSS Externo (arquivo separado vinculado com <link>).
+
+2. Prioridade e Cascata (Cascading):
+   O aluno visualizou como funciona a hierarquia do CSS.
+   - Seletor de tag (p) tem menor prioridade;
+   - Seletor de classe (.classe) tem prioridade maior;
+   - Estilo inline possui prioridade superior;
+   - Em caso de conflito, a regra mais específica vence.
+
+3. Estrutura e semântica do HTML:
+   O aluno praticou o uso de:
+   - <p> para parágrafos;
+   - <em> para ênfase (itálico semântico);
+   - <strong> para destaque (negrito semântico);
+   - <small> para texto em tamanho reduzido;
+   - <br> para quebra de linha.
+
+4. Separação entre estrutura e apresentação:
+   O código reforça que o HTML é responsável pela estrutura e significado
+   do conteúdo, enquanto o CSS controla a aparência visual.
+
+5. Boas práticas iniciais:
+   O aluno percebeu que o CSS externo é o mais indicado para projetos reais,
+   pois organiza melhor o código e facilita a manutenção.
+
+6. Compreensão prática da teoria:
+   O exemplo permitiu visualizar na prática o conceito de "Cascading Style Sheets",
+   entendendo que os estilos são aplicados em ordem de prioridade.
+-->

@@ -1,0 +1,163 @@
+<!-- Declaração do tipo de documento.
+     Informa ao navegador que este arquivo é um documento HTML5. -->
+<!DOCTYPE html>
+
+<!-- Tag raiz do documento HTML.
+     Todo o conteúdo da página deve estar dentro dessa tag.
+     O atributo lang="pt-br" informa que o idioma principal da página é português do Brasil,
+     ajudando mecanismos de busca e leitores de tela. -->
+<html lang="pt-br">
+
+<head>
+    <!-- A tag <head> contém informações sobre a página
+         que NÃO aparecem diretamente no conteúdo visível do site. -->
+
+    <!-- Define o conjunto de caracteres como UTF-8.
+         Isso permite exibir corretamente acentos e caracteres especiais
+         como ç, ã, é, etc. -->
+    <meta charset="UTF-8">
+
+    <!-- Configura a responsividade da página.
+         width=device-width faz com que a largura da página se adapte
+         ao tamanho da tela do dispositivo.
+         initial-scale=1.0 define o nível inicial de zoom. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Define o título da página.
+         Esse texto aparece na aba do navegador. -->
+    <title>Exemplo de Página HTML</title>
+
+    <!-- Conecta (vincula) o arquivo CSS externo ao HTML.
+         rel="stylesheet" indica que é uma folha de estilo.
+         href="styles.css" aponta para o arquivo que contém as regras visuais. -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- A tag <body> contém todo o conteúdo VISÍVEL da página. -->
+
+    <!-- ================= TÍTULOS ================= -->
+
+    <!-- <h1> é o título principal da página.
+         Deve ser usado apenas uma vez por página. -->
+    <h1>Meu Site Exemplo</h1>
+
+    <!-- <h2> é um subtítulo.
+         Pode ser usado para organizar seções do conteúdo. -->
+    <h2>Subtítulo do Site</h2>
+    
+
+    <!-- ================= PARÁGRAFOS E ALINHAMENTOS ================= -->
+
+    <!-- <p> define um parágrafo.
+         O atributo class permite associar estilos específicos no CSS.
+         Aqui, cada parágrafo recebe uma classe diferente para aplicar alinhamentos distintos. -->
+    <p class="alinhado-esquerda">Este texto está alinhado à esquerda.</p>
+
+    <p class="alinhado-centro">Este texto está centralizado.</p>
+
+    <p class="alinhado-direita">Este texto está alinhado à direita.</p>
+    
+
+    <!-- ================= LISTA ORDENADA ================= -->
+
+    <!-- <h2> define o título da seção. -->
+    <h2>Lista Ordenada</h2>
+
+    <!-- <ol> significa "ordered list" (lista ordenada).
+         Os itens aparecem numerados automaticamente. -->
+    <ol>
+        <!-- <li> significa "list item" (item da lista). -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    
+
+    <!-- ================= LISTA NÃO ORDENADA ================= -->
+
+    <h2>Lista Não Ordenada</h2>
+
+    <!-- <ul> significa "unordered list" (lista não ordenada).
+         Os itens aparecem com marcadores (bolinhas). -->
+    <ul>
+        <li>Elemento A</li>
+        <li>Elemento B</li>
+        <li>Elemento C</li>
+    </ul>
+    
+
+    <!-- ================= LISTA DE DEFINIÇÕES ================= -->
+
+    <h2>Lista de Definições</h2>
+
+    <!-- <dl> significa "definition list".
+         É usada para apresentar termos e suas definições. -->
+    <dl>
+
+        <!-- <dt> significa "definition term".
+             Representa o termo que será definido. -->
+        <dt>HTML</dt>
+
+        <!-- <dd> significa "definition description".
+             Representa a descrição do termo anterior. -->
+        <dd>Linguagem de marcação usada para criar páginas web.</dd>
+
+        <dt>CSS</dt>
+        <dd>Folhas de estilo usadas para estilizar páginas web.</dd>
+    </dl>
+    
+
+    <!-- ================= IMAGEM ================= -->
+
+    <h2>Imagem de Exemplo</h2>
+
+    <!-- <img> é usada para inserir imagens.
+         src define o caminho do arquivo da imagem.
+         alt fornece um texto alternativo caso a imagem não carregue
+         e também é importante para acessibilidade.
+         width define a largura da imagem em pixels. -->
+    <img src="uni.png" alt="Imagem Exemplo" width="300">
+    <figcaption>Fachada principal da Escola Saber & Futuro</figcaption>  <!--  Legenda da imagem-->
+
+</body>
+
+</html>
+
+
+<!--
+O que foi aprendido com este código:
+
+1. Estrutura básica de uma página web:
+   O aluno aprendeu a criar a base de um documento HTML, utilizando as tags
+   <!DOCTYPE html>, <html>, <head> e <body>, compreendendo o papel de cada
+   uma na construção de uma página web.
+
+2. Organização e hierarquia do conteúdo:
+   O uso das tags de título (<h1> e <h2>) permitiu compreender a hierarquia
+   das informações e a organização lógica do conteúdo da página.
+
+3. Criação de textos e parágrafos:
+   O aluno praticou o uso da tag <p> para criação de textos, além da aplicação
+   de classes para possibilitar diferentes estilos por meio do CSS.
+
+4. Uso de listas em HTML:
+   Foram utilizados diferentes tipos de listas:
+   - Lista ordenada (<ol>);
+   - Lista não ordenada (<ul>);
+   - Lista de definições (<dl>, <dt> e <dd>);
+   permitindo compreender quando cada uma deve ser utilizada.
+
+5. Inserção de imagens:
+   O aluno aprendeu a inserir imagens com a tag <img>, entendendo a função dos
+   atributos src, alt e width, além da importância da acessibilidade.
+
+6. Separação entre conteúdo e apresentação:
+   O código reforça a separação de responsabilidades entre HTML (estrutura)
+   e CSS (estilo), por meio da vinculação de uma folha de estilo externa.
+
+7. Boas práticas iniciais de desenvolvimento web:
+   O uso de comentários, organização do código e estrutura clara contribuiu
+   para o desenvolvimento de boas práticas e facilitou a leitura e manutenção
+   do site.
+-->

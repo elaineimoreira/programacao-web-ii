@@ -1,0 +1,9 @@
+/* Regra 1 – seletor por tag */
+p {
+    color: blue;
+}
+
+/* Regra 2 – seletor por classe */
+.destaque {
+    color: rgb(60, 255, 0);
+}

@@ -1,0 +1,97 @@
+/* =========================================================
+   ESTILOS PARA TÍTULOS (h1 e h2)
+   ========================================================= */
+
+/* Seletor de grupo:
+   h1, h2 indica que as regras abaixo serão aplicadas
+   a TODOS os elementos <h1> e <h2> da página. */
+h1, h2 {
+
+    /* text-align: center;
+       Centraliza o texto horizontalmente dentro do elemento.
+       Muito utilizado para títulos principais e subtítulos. */
+    text-align: center;
+
+    /* color: navy;
+       Define a cor do texto.
+       'navy' é um tom de azul escuro, frequentemente usado
+       para dar destaque e boa legibilidade aos títulos. */
+    color: navy;
+}
+
+
+/* =========================================================
+   CLASSE PARA ALINHAMENTO À ESQUERDA
+   ========================================================= */
+
+/* Seletor de classe:
+   .alinhado-esquerda será aplicado a qualquer elemento HTML
+   que possuir class="alinhado-esquerda". */
+.alinhado-esquerda {
+
+    /* text-align: left;
+       Alinha o texto à esquerda, que é o alinhamento padrão
+       da maioria dos textos em páginas web. */
+    text-align: left;
+}
+
+
+/* =========================================================
+   CLASSE PARA ALINHAMENTO À DIREITA
+   ========================================================= */
+
+/* Seletor de classe:
+   .alinhado-direita aplica estilo aos elementos
+   que utilizam class="alinhado-direita". */
+.alinhado-direita {
+
+    /* text-align: right;
+       Alinha o texto à direita do elemento.
+       Pode ser usado para destaques ou efeitos visuais. */
+    text-align: right;
+}
+
+
+/* =========================================================
+   CLASSE PARA ALINHAMENTO CENTRALIZADO
+   ========================================================= */
+
+/* Seletor de classe:
+   .alinhado-centro aplica estilo aos elementos
+   que utilizam class="alinhado-centro". */
+.alinhado-centro {
+
+    /* text-align: center;
+       Centraliza o texto horizontalmente dentro do elemento.
+       Permite controlar o alinhamento de textos individualmente,
+       sem afetar outros elementos da página. */
+    text-align: center;
+}
+
+/* 
+O que foi aprendido com este código CSS:
+
+1. Uso de seletores de grupo:
+   O aluno aprendeu a aplicar estilos a mais de um elemento ao mesmo tempo,
+   utilizando seletores de grupo (h1, h2), evitando repetição de código.
+
+2. Uso de seletores de classe:
+   O aluno compreendeu como criar e utilizar classes CSS para aplicar estilos
+   específicos apenas aos elementos desejados, por meio do seletor (.nome-da-classe).
+
+3. Controle de alinhamento de texto:
+   O aluno aprendeu a utilizar a propriedade text-align para alinhar textos
+   à esquerda, à direita ou ao centro, conforme a necessidade do layout.
+
+4. Definição de cores no CSS:
+   O aluno praticou a utilização da propriedade color para alterar a cor do texto,
+   entendendo que o CSS controla a aparência visual dos elementos HTML.
+
+5. Separação entre estrutura e estilo:
+   O código reforça o conceito de separação de responsabilidades, onde o HTML
+   é responsável pela estrutura do conteúdo e o CSS pela formatação visual.
+
+6. Boas práticas iniciais em CSS:
+   O aluno desenvolveu noções de organização do código, reutilização de estilos
+   e clareza na definição de regras, facilitando a manutenção e a leitura do CSS.
+*/
