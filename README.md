@@ -2,7 +2,7 @@
 
 Repositório com exemplos práticos desenvolvidos nas aulas ao vivo da disciplina **Programação para Web II**, com foco em CSS, conforme os capítulos 1, 2 e 3 do livro base.
 
-## Estrutura
+## 📂 Estrutura
 
 - Aula 01 – Capítulo 1: Conceitos básicos de CSS  
 - Aula 02 – Capítulo 2: Propriedades, sintaxe e seletores  
@@ -10,14 +10,14 @@ Repositório com exemplos práticos desenvolvidos nas aulas ao vivo da disciplin
 
 Cada pasta contém exemplos práticos em HTML e CSS.
 
-## Objetivo do Repositório
+## 🎯 Objetivo do Repositório
 
 Este repositório tem como objetivo:
 - Demonstrar na prática os conceitos estudados no livro;
 - Organizar os códigos desenvolvidos em aula;
 - Servir como material de apoio para estudo e revisão.
 
-## Como utilizar
+## ▶️ Como utilizar
 
 1. Faça o download do repositório.
 2. Abra os arquivos `.html` em seu navegador.
