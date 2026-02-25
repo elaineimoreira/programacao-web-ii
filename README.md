@@ -17,7 +17,7 @@ Este repositório tem como objetivo:
 - Organizar os códigos desenvolvidos em aula;
 - Servir como material de apoio para estudo e revisão.
 
-- ## Como utilizar
+## Como utilizar
 
 1. Faça o download do repositório.
 2. Abra os arquivos `.html` em seu navegador.
