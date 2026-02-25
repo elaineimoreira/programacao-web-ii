@@ -9,3 +9,16 @@ Repositório com exemplos práticos desenvolvidos nas aulas ao vivo da disciplin
 - Aula 03 – Capítulo 3: Boas práticas e tópicos avançados  
 
 Cada pasta contém exemplos práticos em HTML e CSS.
+
+## Objetivo do Repositório
+
+Este repositório tem como objetivo:
+- Demonstrar na prática os conceitos estudados no livro;
+- Organizar os códigos desenvolvidos em aula;
+- Servir como material de apoio para estudo e revisão.
+
+- ## Como utilizar
+
+1. Faça o download do repositório.
+2. Abra os arquivos `.html` em seu navegador.
+3. Edite os arquivos `.css` para testar alterações.
