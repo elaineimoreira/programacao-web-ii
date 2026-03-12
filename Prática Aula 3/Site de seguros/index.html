@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma do documento como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para dispositivos móveis -->
+    <title>Seguro XYZ</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo de estilo externo -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Seguro XYZ</h1> <!-- Título principal do cabeçalho -->
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li> <!-- Link para a página inicial -->
+                <li><a href="#">Sobre</a></li> <!-- Link para a página 'Sobre' -->
+                <li><a href="#planos">Planos</a></li> <!-- Link âncora para a seção de planos -->
+                <li><a href="#contato">Contato</a></li> <!-- Link âncora para a seção de contato -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h2>Bem-vindo à Seguro XYZ</h2> <!-- Título da seção de introdução -->
+            <p>Oferecemos a melhor proteção para você e sua família.</p> <!-- Texto de introdução -->
+            <button>Saiba Mais</button> <!-- Botão para mais informações -->
+        </section>
+
+        <!-- Seção de Planos de Seguro com o ID para navegação -->
+        <section class="informacoes" id="planos">
+            <h2>Nossos Planos</h2> <!-- Título da seção de planos -->
+            <p>Descubra os planos de seguro que atendem às suas necessidades.</p> <!-- Descrição dos planos -->
+
+            <div class="planos">
+                <div class="plano">
+                    <h3>Seguro de Vida</h3> <!-- Título do primeiro plano -->
+                    <p>Proteja sua família com nosso seguro de vida...</p> <!-- Descrição do primeiro plano -->
+                    <ul>
+                        <li>Benefícios: Cobertura para acidentes, doenças graves e invalidez.</li>
+                        <li>Assistência 24h para emergências médicas.</li>
+                        <li>Opções de cobertura para toda a família.</li>
+                    </ul>
+                    <button>Saiba Mais</button> <!-- Botão para mais informações sobre o primeiro plano -->
+                </div>
+
+                <!-- Outros planos seguem o mesmo padrão -->
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2>Entre em Contato Conosco</h2> <!-- Título da seção de contato -->
+            <p>Tem alguma dúvida ou precisa de mais informações?...</p> <!-- Texto de instrução para contato -->
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome:</label> <!-- Campo para inserção do nome -->
+                    <input type="text" id="nome" name="nome" required> <!-- Entrada de texto obrigatória -->
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label> <!-- Campo para inserção do e-mail -->
+                    <input type="email" id="email" name="email" required> <!-- Entrada de e-mail obrigatória -->
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label> <!-- Campo para inserção do assunto -->
+                    <input type="text" id="assunto" name="assunto" required> <!-- Entrada de texto obrigatória -->
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label> <!-- Campo para inserção da mensagem -->
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea> <!-- Área de texto obrigatória com 4 linhas -->
+                </div>
+                <button type="submit">Enviar Mensagem</button> <!-- Botão de envio do formulário -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Seguro XYZ - Todos os direitos reservados.</p> <!-- Rodapé com direitos autorais -->
+    </footer>
+</body>
+</html>

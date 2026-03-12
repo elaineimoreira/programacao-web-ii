@@ -1,0 +1,29 @@
+
+/* ===================================================== */
+/* ACESSIBILIDADE  */
+/* ===================================================== */
+
+/* BOTÕES DE ACESSIBILIDADE        */
+
+.acessibilidade {
+  display: flex;              /* Mostra os botões lado a lado */
+  gap: 8px;                   /* Espaço entre eles */
+  align-items: center;        /* Alinha verticalmente */
+}
+
+.acessibilidade button {
+  background-color: transparent;
+  border: 1px solid #1f2a2a;
+  color: #1f2a2a;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+/* FOCO VISÍVEL PARA NAVEGAÇÃO POR TECLADO: quem navega com Tab sabe onde está. */
+
+a:focus,
+button:focus {
+  outline: 3px solid #3D2821; /* Contorno visível */
+  outline-offset: 3px;       /* Afasta da borda */
+}

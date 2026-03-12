@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo HTML Semântico</title>
+    <link rel="stylesheet" href="styleac.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Meu Site</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h2>Conteúdo Principal</h2>
+        <p>Este é o conteúdo principal da página.</p>
+    </section>
+</main>
+
+<!-- ============================= -->
+<!-- Acessibilidade - Controle de tamanho de fonte -->
+<!-- ============================= -->
+
+<!-- Div que agrupa os botões de acessibilidade -->
+<div class="acessibilidade">
+
+  <!-- Botão para aumentar o tamanho do texto da página -->
+  <!-- id: usado no JavaScript para identificar o botão -->
+  <!-- aria-label: descrição para leitores de tela (acessibilidade para pessoas com deficiência visual) -->
+  <button id="aumentar-fonte" aria-label="Aumentar tamanho do texto">A+</button>
+
+  <!-- Botão para diminuir o tamanho do texto da página -->
+  <!-- Também possui aria-label para acessibilidade -->
+  <button id="diminuir-fonte" aria-label="Diminuir tamanho do texto">A-</button>
+
+</div>
+
+
+<!-- ============================= -->
+<!-- Acessibilidade - VLibras -->
+<!-- ============================= -->
+
+<!-- Estrutura necessária para o plugin VLibras funcionar -->
+<!-- VLibras é uma ferramenta do governo brasileiro que traduz conteúdo do site para Libras -->
+<div vw class="enabled">
+
+  <!-- Botão flutuante que aparece na tela para ativar o VLibras -->
+  <div vw-access-button class="active"></div>
+
+  <!-- Container que guarda os elementos do plugin -->
+  <div vw-plugin-wrapper>
+
+    <!-- Área superior do plugin onde aparece o avatar intérprete -->
+    <div class="vw-plugin-top-wrapper"></div>
+
+  </div>
+</div>
+
+
+<!-- Importa o script oficial do VLibras -->
+<!-- Esse arquivo contém toda a lógica do tradutor para Libras -->
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+
+<script>
+  // Inicializa o plugin VLibras no site
+  // O comando cria o widget que permite traduzir o conteúdo da página para Libras
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+
+<footer>
+    <p>© 2026 - Meu Site</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+    
+    
+  

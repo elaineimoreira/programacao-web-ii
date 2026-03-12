@@ -1,0 +1,216 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0; /* Remove as margens padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Faz com que padding e border sejam incluídos no cálculo do tamanho do elemento */
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do corpo da página */
+    background-color: #f4f4f4; /* Define a cor de fundo do corpo da página */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0044cc; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 20px; /* Adiciona preenchimento de 20px ao redor do cabeçalho */
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao cabeçalho */
+}
+
+header .logo h1 {
+    font-size: 2rem; /* Define o tamanho da fonte do título da logo */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove os marcadores das listas de navegação */
+    display: flex; /* Usa flexbox para os itens de navegação */
+}
+
+header nav ul li {
+    margin-left: 20px; /* Adiciona espaçamento à esquerda de cada item de navegação */
+}
+
+header nav ul li a {
+    color: white; /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 1rem; /* Define o tamanho da fonte dos links */
+    padding: 5px 10px; /* Adiciona preenchimento aos links */
+    border-radius: 5px; /* Arredonda os cantos dos links */
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor de fundo */
+}
+
+header nav ul li a:hover {
+    background-color: #0033cc; /* Muda a cor de fundo dos links ao passar o mouse sobre eles */
+}
+
+/* Seção principal */
+main {
+    margin: 40px auto; /* Adiciona margem em cima e embaixo e centraliza horizontalmente */
+    width: 80%; /* Define a largura principal como 80% da tela */
+    max-width: 1200px; /* Define a largura máxima da área principal */
+}
+
+/* Introdução */
+.introducao {
+    text-align: center; /* Centraliza o texto */
+    background-color: #fff; /* Define o fundo como branco */
+    padding: 40px; /* Adiciona preenchimento de 40px */
+    border-radius: 8px; /* Arredonda os cantos do bloco */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao bloco */
+}
+
+.introducao h2 {
+    font-size: 2rem; /* Define o tamanho da fonte do subtítulo */
+    margin-bottom: 20px; /* Adiciona margem inferior ao subtítulo */
+}
+
+.introducao p {
+    font-size: 1.2rem; /* Define o tamanho da fonte do parágrafo */
+    margin-bottom: 20px; /* Adiciona margem inferior ao parágrafo */
+}
+
+.introducao button {
+    padding: 10px 20px; /* Adiciona preenchimento ao botão */
+    font-size: 1rem; /* Define o tamanho da fonte do botão */
+    background-color: #0044cc; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar o mouse sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor de fundo */
+}
+
+.introducao button:hover {
+    background-color: #0033cc; /* Muda a cor de fundo do botão ao passar o mouse sobre ele */
+}
+
+/* Seção de Planos */
+.informacoes {
+    background-color: #fff; /* Define o fundo da seção de planos como branco */
+    padding: 40px; /* Adiciona preenchimento de 40px */
+    margin-top: 30px; /* Adiciona margem superior de 30px */
+    border-radius: 8px; /* Arredonda os cantos da seção */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave à seção */
+}
+
+.informacoes h2 {
+    font-size: 2rem; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona margem inferior ao título */
+    text-align: center; /* Centraliza o título */
+}
+
+.planos {
+    display: flex; /* Usa flexbox para layout dos planos */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    margin-top: 30px; /* Adiciona margem superior de 30px */
+}
+
+.plano {
+    background-color: #f8f8f8; /* Define o fundo do bloco do plano */
+    padding: 20px; /* Adiciona preenchimento de 20px */
+    border-radius: 8px; /* Arredonda os cantos do bloco */
+    width: 30%; /* Define a largura dos planos como 30% do contêiner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao bloco */
+    text-align: center; /* Centraliza o texto dentro do bloco */
+}
+
+.plano h3 {
+    font-size: 1.5rem; /* Define o tamanho da fonte do título do plano */
+    margin-bottom: 15px; /* Adiciona margem inferior ao título */
+}
+
+.plano p {
+    font-size: 1rem; /* Define o tamanho da fonte da descrição do plano */
+    margin-bottom: 15px; /* Adiciona margem inferior à descrição */
+}
+
+.plano ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin-bottom: 15px; /* Adiciona margem inferior à lista */
+    padding-left: 0; /* Remove o preenchimento à esquerda */
+}
+
+.plano ul li {
+    font-size: 0.9rem; /* Define o tamanho da fonte dos itens da lista */
+    margin-bottom: 10px; /* Adiciona margem inferior aos itens da lista */
+}
+
+.plano button {
+    padding: 10px 20px; /* Adiciona preenchimento ao botão */
+    background-color: #0044cc; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Define o cursor como ponteiro */
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor de fundo */
+}
+
+.plano button:hover {
+    background-color: #0033cc; /* Muda a cor de fundo do botão ao passar o mouse sobre ele */
+}
+
+/* Rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    background-color: #333; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto do rodapé */
+    padding: 20px; /* Adiciona preenchimento ao rodapé */
+    margin-top: 40px; /* Adiciona margem superior ao rodapé */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao rodapé */
+}
+
+/* Seção de Contato */
+.contato {
+    background-color: #fff; /* Define o fundo da seção de contato como branco */
+    padding: 40px; /* Adiciona preenchimento de 40px */
+    margin-top: 30px; /* Adiciona margem superior de 30px */
+    border-radius: 8px; /* Arredonda os cantos da seção */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave à seção */
+}
+
+.contato h2 {
+    font-size: 2rem; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona margem inferior ao título */
+    text-align: center; /* Centraliza o título */
+}
+
+.contato p {
+    font-size: 1.2rem; /* Define o tamanho da fonte do parágrafo */
+    margin-bottom: 30px; /* Adiciona margem inferior ao parágrafo */
+    text-align: center; /* Centraliza o texto */
+}
+
+form {
+    display: flex; /* Usa flexbox para layout do formulário */
+    flex-direction: column; /* Organiza os itens do formulário em uma coluna */
+    align-items: center; /* Centraliza os itens do formulário */
+}
+
+form input, form textarea {
+    width: 100%; /* Define a largura dos campos como 100% */
+    padding: 10px; /* Adiciona preenchimento aos campos */
+    margin-bottom: 20px; /* Adiciona margem inferior aos campos */
+    border: 1px solid #ccc; /* Define a borda dos campos */
+    border-radius: 5px; /* Arredonda os cantos dos campos */
+    font-size: 1rem; /* Define o tamanho da fonte dos campos */
+}
+
+form button {
+    padding: 10px 20px; /* Adiciona preenchimento ao botão */
+    font-size: 1rem; /* Define o tamanho da fonte do botão */
+    background-color: #0044cc; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Define o cursor como ponteiro */
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor de fundo */
+}
+
+form button:hover {
+    background-color: #0033cc; /* Muda a cor de fundo do botão ao passar o mouse sobre ele */
+}

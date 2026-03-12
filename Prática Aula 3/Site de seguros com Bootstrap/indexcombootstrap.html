@@ -1,0 +1,141 @@
+<!DOCTYPE html> <!-- Define que este é um documento HTML5 -->
+<html lang="pt-br"> <!-- Define a linguagem do conteúdo da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres do documento (UTF-8) para garantir que caracteres especiais sejam exibidos corretamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante que a página se adapte bem a diferentes tamanhos de tela (responsividade) -->
+    <title>Seguro XYZ</title> <!-- Define o título da página que aparece na aba do navegador -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Carrega o CSS do Bootstrap a partir de um CDN para estilizar a página -->
+</head>
+<body>
+    <header class="bg-primary text-white py-3"> <!-- Define o cabeçalho com fundo azul (bg-primary), texto branco (text-white) e padding (espaciamento) no eixo vertical (py-3) -->
+        <div class="container"> <!-- Cria um contêiner que centraliza o conteúdo e define margens padrão -->
+            <div class="d-flex justify-content-between"> <!-- Define um layout flexível e distribui os itens (logo e menu) com espaço entre eles -->
+                <h1 class="h3">Seguro XYZ</h1> <!-- Título principal da página, com a classe h3 para definir o tamanho do texto -->
+                <nav> <!-- Define a área de navegação do site -->
+                    <ul class="nav"> <!-- Cria uma lista de navegação com a classe nav para estilização -->
+                        <li class="nav-item"> <!-- Define um item dentro da lista de navegação -->
+                            <a class="nav-link text-white" href="#">Home</a> <!-- Link de navegação para a Home, com texto branco -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Sobre</a> <!-- Link de navegação para a seção "Sobre" -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#planos">Planos</a> <!-- Link de navegação para a seção de planos, que será acessada ao rolar para baixo -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contato">Contato</a> <!-- Link de navegação para a seção de contato -->
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção de Introdução -->
+        <section class="bg-light text-center py-5"> <!-- Seção com fundo claro (bg-light), texto centralizado (text-center) e padding no eixo vertical (py-5) -->
+            <div class="container"> <!-- Contêiner que centraliza o conteúdo da seção -->
+                <h2>Bem-vindo à Seguro XYZ</h2> <!-- Título da seção -->
+                <p>Oferecemos a melhor proteção para você e sua família.</p> <!-- Parágrafo com uma breve descrição -->
+                <button class="btn btn-primary">Saiba Mais</button> <!-- Botão estilizado com a classe btn (botão) e btn-primary (botão azul) -->
+            </div>
+        </section>
+
+        <!-- Seção de Planos de Seguro -->
+        <section class="py-5" id="planos"> <!-- Seção com padding no eixo vertical (py-5) e id "planos" para link de navegação -->
+            <div class="container"> <!-- Contêiner para centralizar o conteúdo -->
+                <h2 class="text-center">Nossos Planos</h2> <!-- Título da seção, centralizado -->
+                <p class="text-center">Descubra os planos de seguro que atendem às suas necessidades.</p> <!-- Parágrafo explicativo -->
+                <div class="row"> <!-- Cria uma linha para exibir os planos em colunas -->
+                    <!-- Plano de Vida -->
+                    <div class="col-md-4"> <!-- Cria uma coluna que ocupará 4 das 12 colunas do grid do Bootstrap em telas médias ou maiores -->
+                        <div class="card"> <!-- Cria um cartão (caixa com bordas) para exibir o plano -->
+                            <div class="card-body"> <!-- Corpo do cartão -->
+                                <h3 class="card-title">Seguro de Vida</h3> <!-- Título do plano -->
+                                <p class="card-text">Proteja sua família com nosso seguro de vida...</p> <!-- Descrição do plano -->
+                                <ul> <!-- Lista de benefícios -->
+                                    <li>Benefícios: Cobertura para acidentes, doenças graves...</li>
+                                    <li>Assistência 24h para emergências médicas.</li>
+                                    <li>Opções de cobertura para toda a família.</li>
+                                </ul>
+                                <button class="btn btn-primary">Saiba Mais</button> <!-- Botão estilizado para saber mais sobre o plano -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Plano de Carro -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Seguro de Carro</h3>
+                                <p class="card-text">Garanta a segurança do seu veículo...</p>
+                                <ul>
+                                    <li>Assistência 24h para reboque e reparos.</li>
+                                    <li>Proteção contra roubo e furto.</li>
+                                    <li>Opções de franquia reduzida.</li>
+                                </ul>
+                                <button class="btn btn-primary">Saiba Mais</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Plano Residencial -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Seguro Residencial</h3>
+                                <p class="card-text">Proteja sua casa contra incêndios...</p>
+                                <ul>
+                                    <li>Cobertura contra incêndios, inundações...</li>
+                                    <li>Proteção contra roubo e vandalismo.</li>
+                                    <li>Assistência de reparos emergenciais.</li>
+                                </ul>
+                                <button class="btn btn-primary">Saiba Mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section class="bg-light py-5" id="contato"> <!-- Seção de contato com fundo claro e padding no eixo vertical -->
+            <div class="container"> <!-- Contêiner para centralizar o conteúdo -->
+                <h2 class="text-center">Entre em Contato Conosco</h2> <!-- Título da seção, centralizado -->
+                <p class="text-center">Tem alguma dúvida ou precisa de mais informações?</p> <!-- Descrição da seção -->
+                <form action="#" method="POST"> <!-- Formulário para enviar dados -->
+                    <div class="form-group"> <!-- Agrupamento de um campo de entrada -->
+                        <label for="nome">Nome:</label> <!-- Rótulo do campo -->
+                        <input type="text" class="form-control" id="nome" name="nome" required> <!-- Campo de texto com a classe form-control para estilização -->
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" class="form-control" id="assunto" name="assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea> <!-- Campo de texto maior (textarea) -->
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button> <!-- Botão de envio -->
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-primary text-white py-3"> <!-- Rodapé com fundo azul e texto branco -->
+        <div class="container text-center"> <!-- Contêiner para centralizar o conteúdo -->
+            <p>&copy; 2025 Seguro XYZ - Todos os direitos reservados.</p> <!-- Texto do rodapé -->
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap (jQuery, Popper.js e Bootstrap JS) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- Biblioteca jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> <!-- Biblioteca Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Biblioteca Bootstrap JS -->
+</body>
+</html>
